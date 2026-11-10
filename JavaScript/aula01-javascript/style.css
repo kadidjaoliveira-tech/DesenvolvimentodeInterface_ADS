@@ -1,0 +1,68 @@
+/* Inclui padding e bordas no cálculo das dimensões dos elementos. */
+* {
+    box-sizing: border-box;
+}
+
+/* Define a fonte e o estilo geral da página. */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f1f6;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Estiliza o painel principal da calculadora. */
+.container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+}
+
+/* Define a cor e o alinhamento do título. */
+h1 {
+    color: #43054e;
+    text-align: center;
+}
+
+/* Exibe os rótulos em linhas separadas e adiciona espaço acima. */
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+/* Formata os campos de entrada numérica. */
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+/* Formata o botão de cálculo. */
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background: #662c92;
+    color: white;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Altera a cor do botão quando o ponteiro passa sobre ele. */
+button:hover {
+    background: #43054e;
+}
+
+/* Define a aparência da área onde os resultados são exibidos. */
+#resultado {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f3f4f6;
+    border-radius: 6px;
+}

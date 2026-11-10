@@ -1,0 +1,23 @@
+<!DOCTYPE html> !<-- Indica que o documento usa HTML5. -->
+<html lang="pt-BR"> <!-- Define o início do HTML e informa que o idioma é português do Brasil. -->
+<head>
+    <meta charset="UTF-8"> <!-- Permite a exibição correta de acentos e caracteres especiais. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ajusta a página à largura da tela do dispositivo. -->
+    <title>Calculadora JavaScript</title> <!-- Define o título exibido na aba do navegador. -->
+    <link rel="stylesheet" href="style.css"> <!-- Conecta a página ao arquivo de estilos CSS. -->
+</head>
+<body>
+    <main class="container"> <!-- Agrupa o conteúdo principal da calculadora. -->
+        <h1>Calculadora JavaScript</h1> <!-- Exibe o título principal da página. -->
+        <label for="numero1">Primeiro número:</label> <!-- Identifica o campo do primeiro número. -->
+        <input type="number" id="numero1" placeholder="Digite um número"> <!-- Campo numérico para informar o primeiro valor. -->
+        <label for="numero2">Segundo número:</label> <!-- Identifica o campo do segundo número. -->
+        <input type="number" id="numero2" placeholder="Digite um número"> <!-- Campo numérico para informar o segundo valor. -->
+        <button id="btnCalcular">Calcular</button> <!-- Botão que inicia os cálculos da calculadora. -->
+        <section id="resultado" aria-live="polite"> <!-- Área que exibirá os resultados e avisará leitores de tela quando mudar. -->
+            Os resultados aparecerão aqui.
+        </section>
+    </main>
+    <script src="script.js"></script> <!-- Carrega o código JavaScript que controla a calculadora. -->
+</body>
+</html>
